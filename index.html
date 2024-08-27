@@ -1,62 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Mi primera pagina web</title>
-    <style>
-        table {
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-        }
-        
-        td, th {
-        border: 1px solid #dddddd;
-        text-align: center;
-        padding: 8px;
-        }
-    </style>
-</head>
+    <title>Desarrollo personal</title>
+    <link rel="stylesheet" href="style.css"> </head>
 <body>
-    <h1>Hola mundo</h1>
-    <p>Esta en la primer pagina con DEVF</p>
-    <script src="main.js"> </script>
+    <header>
+        <h1>Bienvenido a tu pagina sobre desarrollo personal</h1>
+        <nav>
+            <ul>
+                <li><a href="desarrollo-personal">Inicio</a></li>
+                <li><a href="salud-fisica">Salud física</a></li>
+                <li><a href="salud-mental">Salud mental</a></li>
+                <li><a href="desarrollo-profesional">Desarrollo profesional</a></li>
+                <li><a href="salud-financiera">Salud financiera</a></li>
+                <li><a href="espiritualidad">Espiritualidad</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <table>
-        <tr>
-            <th>Animal</th>
-            <th>País de origen</th>
-            <th>Foto</th>
-        </tr>
-        <tr>
-            <td>Zorro</td>
-            <td>España</td>
-            <td>
-                <figure>
-                    <img src="./img/zorro-rojo.jpg" width="250px" alt="Zorro rojo" title="Zorro rojo">
-                </figure>
-            </td>
-        </tr>
-        <tr>
-            <td>Lobo</td>
-            <td>Siberia</td>
-            <td>
-                <figure>
-                    <img src="./img/lobo.jpg" width="250px" alt="Lobo" title="Lobo">
-                </figure>
-            </td>
-        </tr>
-        <tr>
-            <td>Armadillo</td>
-            <td>México</td>
-            <td>
-                <figure>
-                    <img src="img/armadillo.jpg" width="250px" alt="Armadillo" title="Armadillo">
-                </figure>
-            </td>
-        </tr>
-        </table>
-</body>
+    <main>
+        <aside>
+            <h2>Libros que te recomendamos</h2>
+            <p>En esta sección encontrarás libros que podrán ayudarte a comenzar tu viaje para ser la mejor versión de ti mismo.</p>
+            <div class="contenedor">
+                <div class="columna-izquierda">
+                  <h4>"Los hábitos de la gente altamente efectiva"</h4>
+                  <p id="autor">Stephen R. Covey</p>
+                  <a href="https://www.amazon.com.mx/h%C3%A1bitos-altamente-efectiva-revisada-actualizada-ebook/dp/B00T9HU5KK" target="_blank">
+                    <img src="/proyecto/img/7-habitos.jpg" alt="Portada del libro Los 7 habitos de la gente altamente efectiva de Stephen Covey">
+                </a>
+                </div>
+                <div class="columna-derecha">
+                  <p>Este libro presenta un enfoque basado en principios para mejorar la efectividad personal y profesional. Covey describe siete hábitos que ayudan a desarrollar una mentalidad proactiva, establecer prioridades, y alcanzar metas a largo plazo.</p>
+                </div>
+            </div>
+            <div class="contenedor">
+                <div class="columna-izquierda">
+                  <h4>"Cómo ganar amigos e influir sobre las personas"</h4>
+                  <p id="autor">Dale Carnegie</p>
+                  <a href="https://www.amazon.com.mx/Amigos-Influir-Personas-Friends-Influence/dp/164473009X" target="_blank">
+                    <img src="/proyecto/img/ganar-amigos.jpg" alt="Portada del libro Cómo ganar amigos e influir sobre las personas de Dale Carnegie">
+                </a>
+                </div>
+                <div class="columna-derecha">
+                  <p>Un clásico del desarrollo personal, Carnegie ofrece estrategias para mejorar habilidades sociales y relaciones interpersonales. El libro se centra en técnicas para conectar con los demás, persuadir y mantener relaciones positivas.</p>
+                </div>
+            </div>
+            <div class="contenedor">
+                <div class="columna-izquierda">
+                  <h4>"Despierta tu héroe interior"</h4>
+                  <p id="autor">Victor Hugo Manzanilla</p>
+                  <a href="https://www.amazon.com.mx/Despierta-h%C3%A9roe-interior-Pasos-Significado/dp/0718021495" target="_blank">
+                    <img src="/proyecto/img/despierta-heroe.jpg" alt="Portada del libro Despierta tu héroe interior de Victor Hugo Manzanilla">
+                </a>
+                </div>
+                <div class="columna-derecha">
+                  <p>Manzanilla guía a los lectores a través de un viaje de autoconocimiento y crecimiento personal, enfocándose en descubrir y alcanzar el propósito de vida. Ofrece herramientas prácticas para superar miedos y desafíos, y vivir una vida más plena.</p>
+                </div>
+            </div>
+        </aside>
+        <section id="cuerpo">
+            <section id="desarrollo-personal">
+                <h2>¿Qué es el desarrollo personal?</h2>
+                <p>Es el proceso de mejorar y crecer en diferentes aspectos de nuestra vida. Esto puede incluir habilidades, conocimientos, actitudes y comportamientos que nos ayuden a alcanzar nuestras metas y vivir de manera más plena y satisfactoria.</p>
+                <h3>¿Qué implica el desarrollo personal?</h3>
+                <ul>
+                    <li>Autoconocimiento: Conocerte mejor a ti mismo, tus fortalezas y debilidades, tus valores y metas. Esto te ayuda a tomar decisiones más alineadas con quien realmente eres.</li>
+                    <li>Habilidades: Aprender nuevas habilidades, ya sea en el ámbito profesional, social o personal. Por ejemplo, podrías aprender a comunicarte mejor o a gestionar tu tiempo de manera más efectiva.</li>
+                    <li>Actitudes y comportamientos: Trabajar en tus actitudes y comportamientos para mejorar tus relaciones y tu bienestar general. Esto puede incluir desarrollar una mentalidad más positiva o aprender a manejar el estrés.</li>
+                    <li>Metas y logros: Establecer objetivos claros y trabajar hacia ellos. Esto te da dirección y propósito en tu vida.</li>
+                </ul>
+            </section>
+            <section id="espiritualidad">
+                <h3>Importancia del desarrollo de la espiritualida.</h3>
+                <ul>
+                    <li>Propósito y significado: La espiritualidad nos ayuda a encontrar un propósito en la vida, un sentido más profundo que va más allá de las metas materiales. Esto puede ser una fuente de motivación y dirección en nuestro desarrollo personal.</li>
+                    <li>Autoconocimiento: A través de prácticas espirituales como la meditación y la reflexión, podemos profundizar en nuestro autoconocimiento y comprender mejor nuestras emociones, pensamientos y motivaciones.</li>
+                    <li>Conexión con los demás: La espiritualidad fomenta la conexión con los demás y el sentido de comunidad. Al sentirnos parte de algo más grande, podemos desarrollar relaciones más significativas y compasivas.</li>
+                    <li>Bienestar emocional: Muchas prácticas espirituales, como la meditación y la gratitud, han demostrado tener efectos positivos en la salud mental, reduciendo el estrés y la ansiedad.</li>
+                    <li>Resiliencia: La espiritualidad puede proporcionarnos una fuente de fuerza y resiliencia para enfrentar los desafíos de la vida.</li>
+                </ul>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <form>
+            <label for="email">Suscríbete a nuestro boletín:</label>
+            <input type="email" id="email" name="email" placeholder="Tu correo electrónico">
+            <button type="submit">Suscribirse</button>
+        </form>
+    </footer>
+
+    <script src="script.js"></script> </body>
 </html>
