@@ -49,6 +49,40 @@ main {
   padding: 20px;
 }
 
+#Espiritualidad{
+  display: block;
+  padding: 20px;
+  margin: 20px;
+}
+
+#Espiritualidad img{
+  display: block;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+#Espiritualidad p{
+  display: block;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+#profesional{
+  display: block;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+}
+
+#financiera{
+  display: block;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+}
+
 aside {
   background-color: #e8f0fe; /* Azul claro */
   padding: 20px;
@@ -59,9 +93,41 @@ img {
   height: 150px;
 }
 
+.left{
+  height: 400px;
+}
+
+.right{
+  height: 400px;
+}
+
 section {
   width: 60%;
   text-align: justify;
+}
+
+#cursos{
+  padding: 20px;
+  text-align: justify;
+  width: 100%;
+}
+
+#autoaprendizaje{
+  padding: 20px;
+  text-align: justify;
+  width: 100%;
+}
+
+#INVERSIONES{
+  padding: 20px;
+  text-align: justify;
+  width: 90%;
+}
+
+#PLAN-AHORRO{
+  padding: 20px;
+  text-align: justify;
+  width: 90%;
 }
 
 .contenedor {
